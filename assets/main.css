@@ -16,7 +16,10 @@ a {
 	text-decoration: none;
 	color: #373428;
 }
-.text div {
+p {
+	margin-top: 0;
+}
+.letters div {
 	display: inline-block;
 	text-transform: uppercase;
 	vertical-align: top;
@@ -24,45 +27,45 @@ a {
 	box-sizing: border-box;
 	padding-right: 3px;
 }
-.text {
+.letters {
 	text-align: center;
 }
-.text-1 {
+.letters div:first-child {
 	transform: rotate(-27deg);
 	padding-top: 14px;
 }
-.text-2 {
+.letters div:nth-child(2) {
 	transform: rotate(-18deg);
 	padding-top: 8px;
 }
-.text-3 {
+.letters div:nth-child(3) {
 	transform: rotate(-13deg);
 	padding-top: 4px;
 }
-.text-4 {
+.letters div:nth-child(4) {
 	visibility: hidden;
 }
-.text-5 {
+.letters div:nth-child(5) {
 	transform: rotate(-4deg);
 	padding-top: 0;
 }
-.text-6 {
+.letters div:nth-child(6) {
 	transform: rotate(2deg);
 	padding-top: 0;
 }
-.text-7 {
+.letters div:nth-child(7) {
 	transform: rotate(5deg);
 	padding-top: 1px;
 }
-.text-8 {
+.letters div:nth-child(8) {
 	transform: rotate(11deg);
 	padding-top: 3px;
 }
-.text-9 {
+.letters div:nth-child(9) {
 	transform: rotate(19deg);
 	padding-top: 8px;
 }
-.text-10 {
+.letters div:nth-child(10) {
 	transform: rotate(26deg);
 	padding-top: 14px;
 }
@@ -76,19 +79,19 @@ a {
 	border-radius: 50%;
 	border-color: #292c32 transparent transparent;
 }
-.top {
+.head-text {
 	text-align:center;
 	text-transform: uppercase;
 	color: #22252c;
 	margin-top: -80px;
 }
-.top div:first-child {
+.head-text div:first-child {
 	font-family: 'Bebas Neue Book' ;
 	font-size: 92px;
 	letter-spacing: 6.17px;
 	box-sizing: border-box;
 }
-.top div:last-child {
+.head-text div:last-child {
 	height: 14px;
 	width: 130px;
 	margin: 0 auto;
@@ -166,9 +169,6 @@ a {
 .box-5 {
 	padding-top: 31px;
 	font-size: 29px;
-}
-p {
-	margin-top: 0;
 }
 h2 {
 	padding-left: 34%;
