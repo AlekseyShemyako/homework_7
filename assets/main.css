@@ -164,18 +164,17 @@ img:not(.tel) {
 	padding-top: 31px;
 	font-size: 29px;
 }
-h2 {
+.header:only-child {
 	padding-left: 34%;
 	padding-bottom: 20px;
 	font-size: 30px;
 }
-.text-text-1,
-.text-text-2 {
+.text div {
 	display: inline-block;
 	vertical-align: top;
 	box-sizing: border-box;
 }
-.text-text-1 {
+.text div:first-child {
 	width: 12%;
 	min-width: 250px;
 	margin-right: 20%;
@@ -184,17 +183,17 @@ h2 {
 	font-size: 30px;
 	line-height: 35px;
 }
-.text-text-2 {
+.text div:last-child {
 	width: 50%;
 	min-width: 300px;
 	font-size: 30px;
 }
-.autograph {
+.content div:nth-of-type(3) {
 	font-family: 'Arizonia', cursive;
 	font-size: 100px;
 	padding-left: 30%;
 }
-.logo {
+.logo:only-of-type {
 	text-align: center;
 	padding-top: 573px;
 	margin-bottom: 195px;
